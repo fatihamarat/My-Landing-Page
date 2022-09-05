@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER/NAVBAR SECTION */
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+html{
+    font-family: "open sans", sans-serif;
+}
+
+#navbar{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+    
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    background: #336ea2;
+    border-radius: 4px;
+    border: 1px solid #336ea2;
+}
+
+
+
+/* Home Section */
+
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid black;
+}
+
+#home img{
+    max-width: 100%;
+    height: 300px;
+    border-radius: 100%;
+}
+
+#home .name h2{
+    margin-bottom: 0.75rem;
+}
+
+#home .name p{
+    opacity: 0.6;
+    font-style: italic;
+}
+
+/* TRAINING */
+
+#training{
+    padding: 1rem;
+    color: #fff;
+}
+
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#training .items .item{
+    padding: 33%;
+    text-align: center;
+    padding: 3rem;
+}
+
+#training .items .item:hover{
+    color: red;
+    opacity: 0.5;
+}
+
+/* BIOGRAPHY */
+
+#biography{
+    color: #333;
+    padding: 1rem;
+}
+.experiences{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.experiences .experience{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.experiences .experience .job-image{
+    margin-right: 0.5rem;
+    position: relative;
+}
+.experiences .experience .job-image img{
+    border-radius: 10px;
+    width: 300px;
+    height: 200px;
+}
+.experiences .experience .job-image span{
+    background: red;
+    padding: 0.25rem;
+    color: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+.jobs-info{
+    margin-left: 50px;
+}
+
+.jobs-info .title{
+    letter-spacing: 1.5px;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+.jobs-info .description{
+    letter-spacing: 1.25px;
+    margin-bottom: 0.5rem;
+    opacity: 0.5;
+}
+.jobs-info .place{
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    opacity: 0.5;
+}
+
+/* FOOTER */
+#contact{
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+ul li a:hover{
+    opacity: 0.6;
+}
+
+
+

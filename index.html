@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FATİH HAMARAT | Web Geliştirme Kursu</title>
+    <meta name="keyword" content="FATİH HAMARAT | Web Geliştirme Kursu">
+    <meta name="description" content="FATİH HAMARAT | Web Geliştirme Kursu">
+
+    <!-- Fonts Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/global.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <!-- For Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="CSS/tablet.css">
+    <!-- For Mobile -->
+    <link rel="stylesheet" media="(max-width:500px)" href="CSS/mobile.css">
+
+</head>
+
+<body>
+    <header class="bg-dark-blue">
+
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">Fatih HAMARAT</h1>
+
+                <ul>
+                    <li><a href="#home">Anasayfa</a></li>
+                    <li><a href="#training">Eğitimler</a></li>
+                    <li><a href="#biography">Biyografi</a></li>
+                    <li><a href="#contact">İletişim</a></li>
+                </ul>
+
+            </nav>
+        </div>
+
+    </header>
+    <section id="home">
+        <img src="./images/fatih.jpg" alt="fatih hamarat">
+        <div class="name text-center">
+            <h2 class="heading-big">Fatih HAMARAT</h2>
+            <P>Frontend Developer | HTML5, CSS3, JavaScript</P>
+        </div>
+        <a class="btn btn-primary" href="#biography">Biyografi</a>
+    </section>
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Eğitimler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Akademik Eğitimler</h3>
+                <p>Lisans eğitimimi Anadolu Üniversitesi İşletme Fakültesi'nde tamamladım.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Online Eğitimler</h3>
+                <p>İlk eğitimim "Python" olmak üzere; sırasıyla "HTML5", "CSS3", "JavaScript" ve "React" eğitimlerimi
+                    tamamladım.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Proje Bazlı Eğitimler</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quaerat.</p>
+            </article>
+        </div>
+    </section>
+    <section id="biography">
+        <h3 class="text-center heading-medium">Biyografi</h3>
+        <div class="container">
+            <div class="experiences">
+                <div class="experience">
+                    <div class="job-image">
+                        <img src="./images/navy.jpg" alt="naval forces">
+                        <span>2001-2016</span>
+                    </div>
+                    <div class="jobs-info">
+                        <div class="title">Naval Forces</div>
+                        <div class="description">Officer | Naval Force's Ships </div>
+                        <div class="place">Marmaris | Gölcük | Foça</div>
+                    </div>
+
+                </div>
+                <div class="experience">
+                    <div class="job-image">
+                        <img src="./images/tesis.jpg" alt="sports facilities">
+                        <span>2016-2020</span>
+                    </div>
+                    <div class="jobs-info">
+                        <div class="title">Sports Facilities</div>
+                        <div class="description">Business Supervisor | Sports Facilities </div>
+                        <div class="place">İstanbul</div>
+                    </div>
+                </div>
+                <div class="experience">
+                    <div class="job-image">
+                        <img src="./images/mutfak.jpg" alt="cathering">
+                        <span>2020-2022</span>
+                    </div>
+                    <div class="jobs-info">
+                        <div class="title">Cathering Manager</div>
+                        <div class="description">Manager | Private School </div>
+                        <div class="place">Sakarya</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+                <div class="form-group">
+                    <label for="name">İsim</label>
+                    <input type="text" name="name" id="name" class="form-control" placeholder="isim" />
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="email" />
+                </div>
+                <div class="form-group">
+                    <label for="message">Mesaj</label>
+                    <textarea name="message" id="message" class="form-control" cols="30" rows="10"
+                        placeholder="Your Message..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+            </form>
+            <ul>
+                <li>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+
+            </ul>
+
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
